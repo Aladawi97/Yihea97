@@ -1,0 +1,314 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(26, 25, 34);
+    
+
+}
+.containerr{
+    position: relative;
+    background-color: rgb(26, 25, 34);
+}
+.imgheader{
+    width: 70px;
+    height: 50px;
+}
+.imgg{
+    width: 100%;
+    height: 100vh;
+}
+.mod1{
+    width: 700px;
+    height: 400px;
+    
+}
+
+.remember1{
+    color: rgb(3, 3, 63);
+    font-size: 18px;
+}
+.log{
+    background-color: rgb(4, 4, 52);
+    color: white;
+    margin-bottom: 20px;
+}
+.btn-mod{
+    margin: 0 auto;
+    
+
+}
+.modal{
+    margin-top: 100px;
+    
+}
+.paerant1{
+position: absolute;
+}
+
+.fix{
+    
+         position: fixed;
+         width:100%;
+         top: 0;
+         height: 60px;
+         z-index: 10;
+         background-color: rgba(11, 11, 11, 0.945);
+    
+    
+}
+.team-overlay-11 {
+    position: fixed;
+    top: 400px;
+    width: 70px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 10;
+    right: 0;
+    
+}
+.team-overlay-11 a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color:rgba(64, 155, 230, 0) ;
+    color: rgb(196, 176, 176);
+    font-size: 40px;
+    
+}
+.team-overlay-11 a:hover{
+    color: rgb(74, 74, 136);
+}
+.team-overlay-11 a i {
+    line-height: 60px; 
+}
+.container-text{
+    margin-left: 20px;
+    background-color: rgb(26, 25, 34);
+    color: white;
+    width: 100%;
+}
+.container-text-1{
+    margin-left: 20px;
+    background-color: rgb(26, 25, 34);
+    color: white;
+    width: 95%;
+}
+.txt1{
+    width: 95%;
+    height: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.bs{
+    width: 100%;
+    height: 400px;
+    background: url(../image/download.jfif) no-repeat fixed ;
+    background-position:center;
+    background-size:cover  ;
+    
+}
+/* ********************************************************************************** */
+.container-10 {
+    width: 80%;
+    margin: 20px auto;
+
+    
+    
+}
+
+.team-item-10 {
+    float: left;
+    background-color: rgb(26, 25, 34);
+    width:100%;
+    height: 100%;
+    padding : 14px 18px ;
+    text-align: center;
+    position: relative;
+}
+
+.team-image-10 {
+  
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.team-image-10 img {
+    width: 100%;
+    
+}
+.team-overlay-10 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    transition: 3s;
+}
+.team-item-10:hover .team-overlay-10 {
+    opacity: 1;
+    visibility: visible;
+}
+.team-overlay-10 a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(64, 155, 230) ;
+    color: white;
+    font-size: 23px;
+    margin-left: auto;
+}
+.team-overlay-10 a i {
+    line-height: 40px; 
+}
+
+
+.team-item-10::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.367);
+    top: 0;
+    right:0;
+    
+
+}
+.team-item-10:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+    z-index: 5;
+
+}
+.team-item-10::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: rgb(56, 40, 98);
+    bottom: 0;
+    left:0;
+    
+
+}
+.team-item-10:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+
+}
+.asa{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.aaa{
+    margin-top: 30px;
+}
+.card-body{
+    background-color: rgb(26, 25, 34);
+    color: white;
+}
+.h-10{
+    text-align: center;
+    color: rgb(5, 178, 178);
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+
+
+@media(min-width :960px ){
+    .ww{
+        margin-left: 200px;
+    }
+}
+.h11{
+    background-color: rgb(28, 212, 212);
+    color: black;
+}
+.team-item-11 {
+    float: left;
+    background-color: rgb(26, 25, 34);
+    width:100%;
+    height: 100%;
+    padding : 14px 18px ;
+    text-align: center;
+    position: relative;
+}
+.team-item-11::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background-color: rgba(56, 40, 98, 0.317);
+    bottom: 0;
+    left:0;
+    
+
+}
+.team-item-11:hover{
+    width: 95%;
+    height: 95%;
+}
+.team-item-11:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: rgba(254, 253, 255, 0.317);
+    transition: 1s;
+
+}
+.h12{
+    color: rgba(255 , 255 , 255);
+    text-align: center;
+}
+.colsd{
+    width: 70%;
+    margin: auto;
+}
+.iimg{
+    width: 100%;
+    height: 400px;
+}
+.tex{
+    text-align: center;
+}
+.p12{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    background-image: url(../image/pngtree-warranty-seal-icon-png-image_6058257.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sp{
+    display: inline-block;
+    color: white;
+    margin-top: 2px;
+   
+}
+.vvv{
+    border-bottom: 1px solid white;
+    width: 30%;
+}
+.ww{
+    margin: 0 5%;
+}
+.copy{
+    text-align: center;
+    color: white;
+    font-weight: 30px;
+}
